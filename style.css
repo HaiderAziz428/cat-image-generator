@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-image: url(./mx2.jpg);
+  margin: 1rem;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem; /* Increase the font size */
+  font-family: "Poppins", sans-serif; /* A modern, clean font */
+  background: linear-gradient(90deg, #c1292e, #e86252); /* Gradient text */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Makes the gradient visible */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+  letter-spacing: 2px; /* Adds spacing between letters */
+  margin-top: 1rem;
+  text-transform: uppercase; /* Uppercase letters for impact */
+  position: relative;
+}
+
+.container {
+  text-align: center;
+}
+.Cat-Block {
+  border: 10px solid #cc59d2;
+  border-radius: 25px;
+  padding: 50px 0px;
+  margin-top: 2rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
+}
+button {
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #e86252;
+  border: 5px solid #c1292e; /* 1px solid black border */
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease; /* Smooth transitions */
+}
+button:hover {
+  background-color: #c1292e; /* Darken background color on hover */
+  transform: scale(1.1); /* Slightly enlarge the button */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+}
+img {
+  width: 100%; /* Set the width to 100% of its parent element */
+  height: auto; /* Let the height adjust automatically */
+  max-width: 80%; /* Optional: set a maximum width for larger screens */
+  max-height: 50%;
+}
